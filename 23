@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos de Culinária</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .video-item {
+            margin: 15px;
+            border: 2px solid #ccc;
+            padding: 10px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+        }
+
+        iframe {
+            width: 100%;
+            height: 200px;
+        }
+
+        .video-title {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Catálogo de Vídeos de Culinária</h1>
+    <div class="video-container">
+        <!-- Video 1 -->
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+            <div class="video-title">Delicious Spaghetti Recipe</div>
+        </div>
+        <!-- Video 2 -->
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+            <div class="video-title">Perfect Pancakes Every Time</div>
+        </div>
+        <!-- Video 3 -->
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/oHg5SJYRHA0" frameborder="0" allowfullscreen></iframe>
+            <div class="video-title">Healthy Salad in Minutes</div>
+        </div>
+        <!-- Video 4 -->
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/9bZkp7q19f0" frameborder="0" allowfullscreen></iframe>
+            <div class="video-title">Quick & Easy Stir Fry</div>
+        </div>
+    </div>
+</body>
+</html>
